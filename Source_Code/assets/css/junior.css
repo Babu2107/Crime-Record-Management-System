@@ -1,0 +1,332 @@
+div.upd {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div.upd h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.upd form {
+    margin-top: 20px;
+}
+
+div.upd label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+div.upd input[type="text"],
+div.upd input[type="date"],
+div.upd input[type="number"],
+div.upd textarea,
+div.upd select {
+    width: 90%;
+    padding: 1px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+div.upd select {
+    height: 34px;
+}
+
+div.upd input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+div.upd input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.profile-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add some space between tabs and profile */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+.profile-info strong {
+    font-weight: bold;
+}
+.case-table {
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Adjusted border color for better contrast */
+    border-radius: 4px;
+    overflow-x: auto;
+    background-color: rgba(51, 51, 51, 0.8); /* Darker background color with some opacity */
+}
+
+/* Styles for the table within case-table div */
+.case-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.case-table th,
+.case-table td {
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Adjusted border color */
+    padding: 8px;
+    text-align: left;
+    color: #fff; /* Text color */
+}
+
+.case-table th {
+    background-color: rgba(68, 68, 68, 0.8); /* Darker background for table header with some opacity */
+}
+
+.case-table .btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.case-table .btn-details {
+    background-color: #007bff; /* Blue button color */
+}
+
+.case-table .btn-update {
+    background-color: #28a745; /* Green button color */
+}
+
+/* Button Styles */
+.close-case-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgba(175, 76, 76, 0.8); /* Semi-transparent background for the button */
+}
+
+.close-case-btn:hover {
+    background-color: rgba(175, 76, 76, 1); /* Adjusted opacity on hover */
+}
+
+.close-case-btn:active {
+    background-color: rgba(175, 76, 76, 1); /* Adjusted opacity on click */
+}
+
+/* Style for the modal container */
+.modal-container {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the modal content */
+/* Styles for modal container */
+.modal-container {
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50%;
+height: 50%;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+z-index: 999; /* Ensure the modal is above other content */
+}
+
+/* Styles for modal content */
+.modal-content {
+background-color: #333; /* Dark background for modal content */
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+color: #fff; /* Text color */
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Adjusted shadow for contrast */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+/* Add styles to the select dropdown */
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow for Safari/Chrome */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"><polygon points="6 0 0 6 12 6"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: 50%;
+    cursor: pointer;
+}
+
+/* Style the dropdown options */
+select option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Style when the select dropdown is focused */
+select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d9534f; /* Red color often associated with urgency */
+    color: #fff; /* Text color */
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #c9302c; /* Darker red on hover for contrast */
+}
+.profile-card {
+    background-color: #333; /* Darker background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Adjusted shadow for contrast */
+    margin-top: 20px;
+    color: #fff; /* Text color */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Heading text color */
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+    color: #ccc; /* Profile info text color */
+}
+
+.profile-info strong {
+    font-weight: bold;
+    color: #fff; /* Strong text color */
+}
+
+#modal-container1 { input[type="text"],
+input[type="date"],
+input[type="number"],
+button,
+select,
+
+textarea {
+width: calc(100% - 12px);
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent lighter border */
+background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark input background */
+color: #fff; /* Input text color */
+}
+}
+.modal-container {
+background-color: rgba(255, 255, 255, 0.5); /* Setting a semi-transparent white color */
+padding: 20px;
+color:black;
+border: 1px solid #000; /* Optional: Adding a border for visualization */
+opacity: 1; /* Setting the opacity to 0.7 (70% transparent) */
+}
+label
+{
+color:black;
+}

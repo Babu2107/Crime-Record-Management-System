@@ -1,0 +1,63 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Distributes items evenly with equal space between them */
+}
+
+.flex-item {
+    flex: 1; /* Each item gets an equal share of space */
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust width as needed */
+    gap: 10px; /* Adjust gap size as needed */
+}
+
+.grid-item {
+    padding: 10px;
+    border: 1px solid #000;
+}
+/* CSS for the spacious-table class */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+/* CSS for table cells */
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* CSS for buttons inside the table */
+table button {
+  padding: 10px 20px;
+  background-color: #333; /* Dark gray background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  text-decoration: none; /* Remove default link underline */
+  display: inline-block;
+}
+
+table button:hover {
+  background-color: #555; /* Darker shade on hover */
+}
+td {
+  padding: 10px;
+}
+/* Link styles */
+a {
+  color: #ADD8E6; /* Light blue link color */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #4682B4; /* Darker shade on hover */
+}
